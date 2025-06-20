@@ -39,7 +39,6 @@ cd BE_JAVA
 
 **Ứng dụng thực tế**: Được sử dụng để gửi thông báo xác thực đăng ký, email quên mật khẩu, và các thông báo hệ thống.
 
-**API endpoint**: `GET /api/design-patterns/singleton`
 
 ### 2. Adapter Pattern
 | Class/Interface | Vai trò | Mô tả |
@@ -54,7 +53,6 @@ cd BE_JAVA
 
 **Ứng dụng thực tế**: Giúp hệ thống gửi email thông báo bằng JavaMail mà không cần thay đổi code khi chuyển đổi nhà cung cấp dịch vụ email.
 
-**API endpoint**: `POST /api/design-patterns/adapter`
 
 ### 3. Bridge Pattern
 | Class/Interface | Vai trò | Mô tả |
@@ -70,7 +68,6 @@ cd BE_JAVA
 
 **Ứng dụng thực tế**: Cho phép ứng dụng chuyển đổi linh hoạt giữa lưu trữ đơn hàng trên MongoDB và MySQL mà không ảnh hưởng đến logic kinh doanh.
 
-**API endpoint**: `GET /api/design-patterns/bridge`
 
 ### 4. Composite Pattern
 | Class/Interface | Vai trò | Mô tả |
@@ -87,7 +84,6 @@ cd BE_JAVA
 
 **Ứng dụng thực tế**: Được sử dụng để tạo chiến dịch email với nhiều loại email khác nhau (chào mừng, xác nhận) cho khách hàng mới.
 
-**API endpoint**: `POST /api/design-patterns/composite`
 
 ### 5. Decorator Pattern
 | Class/Interface | Vai trò | Mô tả |
@@ -105,7 +101,6 @@ cd BE_JAVA
 
 **Ứng dụng thực tế**: Tính toán giá cuối cùng của đơn hàng dựa trên nhiều yếu tố (thuế, phí vận chuyển, khuyến mãi) một cách linh hoạt.
 
-**API endpoint**: `POST /api/design-patterns/decorator`
 
 ### 6. Flyweight Pattern
 | Class/Interface | Vai trò | Mô tả |
@@ -119,14 +114,4 @@ cd BE_JAVA
 
 **Ứng dụng thực tế**: Quản lý hiệu quả cấu hình màu sắc cho hàng nghìn sản phẩm đèn mà không tạo đối tượng mới cho mỗi sản phẩm.
 
-**API endpoint**: `GET /api/design-patterns/flyweight`
 
-## Truy cập API Demo
-
-Để trải nghiệm các design pattern qua REST API, bạn có thể sử dụng:
-
-```
-GET http://localhost:8080/api/design-patterns/all
-```
-
-Endpoint này sẽ trả về thông tin về tất cả các mẫu thiết kế được triển khai và ví dụ sử dụng.
